@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spinkit/2.0.1/spinkit.min.css">
     <style>
+
+
+
+
         body, html {
             height: 100%;
             margin: 0;
@@ -13,29 +18,60 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            background-color: #f3f3f3;
-            color: #333;
+            background-color: #1c1c1c;
+            color: #ffffff;
+            background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
         }
         .container {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100%;
             width: 100%;
         }
+        .content {
+            display: flex;
+            align-items: center;
+        }
         h1 {
             font-size: 3em;
+            margin-right: 10px;
+        }
+        .sk-circle {
+            width: 40px;
+            height: 40px;
         }
         @media (max-width: 600px) {
             h1 {
                 font-size: 2em;
+            }
+            .sk-circle {
+                width: 30px;
+                height: 30px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Coming Soon: kindloop</h1>
+        <div class="content">
+            <h1>Coming Soon: kindloop</h1>
+            <div class="sk-circle">
+                <div class="sk-circle1 sk-child"></div>
+                <div class="sk-circle2 sk-child"></div>
+                <div class="sk-circle3 sk-child"></div>
+                <div class="sk-circle4 sk-child"></div>
+                <div class="sk-circle5 sk-child"></div>
+                <div class="sk-circle6 sk-child"></div>
+                <div class="sk-circle7 sk-child"></div>
+                <div class="sk-circle8 sk-child"></div>
+                <div class="sk-circle9 sk-child"></div>
+                <div class="sk-circle10 sk-child"></div>
+                <div class="sk-circle11 sk-child"></div>
+                <div class="sk-circle12 sk-child"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
